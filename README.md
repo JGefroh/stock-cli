@@ -14,13 +14,6 @@ Run the following to start:
  ruby main.rb
  ```
  
-Example to retrieve monthly open close data from 2017-01 to 2017-06 for COF,GOOGL, and MSFT.
- ```
-ruby main.rb COF,GOOGL,MSFT --api_key=API_KEY --start=2017-01-01 --end=2017-06-30
- ```
- 
- 
- Instructions:
 ```bash
  
 This script reads historical securities data from a REST API.
@@ -49,4 +42,40 @@ no arguments / flags (default)
 
 --daily
   - Outputs daily securities data.
+  ```
+
+ 
+
+### Example to retrieve monthly open close data from 2017-01 to 2017-06 for COF,GOOGL, and MSFT.
+ ```
+ruby main.rb COF,GOOGL,MSFT --api_key=API_KEY --start=2017-01-01 --end=2017-06-30
+ ```
+ Result:
+```
+COF
+     Date:                     Avg. Open:                     Avg. Close
+   2017-01                         $88.30                        $88.26
+   2017-02                         $89.85                        $90.20
+   2017-03                         $89.27                        $88.93
+   2017-04                         $83.41                        $83.24
+   2017-05                         $80.65                        $80.51
+   2017-06                         $80.10                        $80.33
+
+GOOGL
+     Date:                     Avg. Open:                     Avg. Close
+   2017-01                        $829.85                       $830.25
+   2017-02                        $836.15                       $836.75
+   2017-03                        $853.86                       $853.79
+   2017-04                        $860.08                       $861.38
+   2017-05                        $959.60                       $961.65
+   2017-06                        $975.78                       $973.37
+
+MSFT
+     Date:                     Avg. Open:                     Avg. Close
+   2017-01                         $63.19                        $63.19
+   2017-02                         $64.13                        $64.11
+   2017-03                         $64.76                        $64.84
+   2017-04                         $66.24                        $66.17
+   2017-05                         $68.83                        $68.92
+   2017-06                         $70.56                        $70.52
   ```
