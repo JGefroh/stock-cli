@@ -38,8 +38,6 @@ def print_instructions
   puts "  - specify the date to start with (inclusive), in YYYY-mm-dd format (eg. 2017-01-30)"
   puts "\n--end"
   puts "  - specify the date to end with (inclusive), in YYYY-mm-dd format (eg. 2017-01-30)"
-  puts "\n--busy-day"
-  puts "  - Outputs the symbol, date, and volume where the security's volume was 10% higher than the average volume for the specified time period."
   puts "\n--daily"
   puts "  - Outputs daily securities data."
 end
