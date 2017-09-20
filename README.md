@@ -24,7 +24,6 @@ format: ruby main.rb <tickers>
 
 eg.
 ruby main.rb COF,GOOGL,MSFT --api_key=API_KEY_HERE
-ruby main.rb COF,GOOGL,MSFT --api_key=API_KEY_HERE --busy-day
 ruby main.rb COF,GOOGL,MSFT --api_key=API_KEY_HERE --start=2017-01-01
 ruby main.rb COF,GOOGL,MSFT --api_key=API_KEY_HERE --start=2017-01-01 --end=2017-06-30
 
