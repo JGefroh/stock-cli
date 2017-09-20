@@ -1,6 +1,7 @@
 # stock-cli
-A stock price lister written in Ruby.
+A stock price lister written in Ruby. This was written under time-boxed conditions for an interview.
 
+See https://github.com/JGefroh/stockerize for a similar personal project with no such limitations!
 
 # Requirements
   * Ruby 2.3 or higher.
